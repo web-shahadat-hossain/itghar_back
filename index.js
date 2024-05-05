@@ -13,7 +13,7 @@ const app = express();
 const port = process.env.PORT || 8000;
 app.use(
   cors({
-    origin: ["http://localhost:3000", "localhost:3000"],
+    origin: ["https://itghor.netlify.app/", "itghor.netlify.app/"],
     credentials: true,
   })
 );
